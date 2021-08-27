@@ -6,6 +6,8 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
 }
 .usesCard:nth-of-type(even) {
   flex-direction: row-reverse;
