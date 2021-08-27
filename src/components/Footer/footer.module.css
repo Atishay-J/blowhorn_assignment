@@ -9,8 +9,7 @@
 }
 .bottomNav {
   display: flex;
-  /* background: red; */
-  width: 40%;
+  width: 65%;
   justify-content: space-around;
   align-items: center;
   font-size: 0.65rem;
@@ -21,10 +20,17 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 1.5rem;
-  /* background: red; */
-  width: 20%;
+  width: 40%;
 }
 .copySection {
   font-size: 0.6rem;
   margin-top: 2rem;
+}
+@media only screen and (min-width: 600px) {
+  .bottomNav {
+    width: 40%;
+  }
+  .socials {
+    width: 20%;
+  }
 }
