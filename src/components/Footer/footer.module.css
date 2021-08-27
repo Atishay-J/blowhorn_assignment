@@ -1,0 +1,36 @@
+.footer {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #9ca3af;
+  padding-bottom: 2rem;
+}
+.bottomNav {
+  display: flex;
+  width: 65%;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.65rem;
+  color: var(--font-gray-light);
+}
+.socials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.5rem;
+  width: 40%;
+}
+.copySection {
+  font-size: 0.6rem;
+  margin-top: 2rem;
+}
+@media only screen and (min-width: 600px) {
+  .bottomNav {
+    width: 40%;
+  }
+  .socials {
+    width: 20%;
+  }
+}

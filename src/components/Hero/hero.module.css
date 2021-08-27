@@ -1,0 +1,56 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+.subHeading {
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: var(--font-col-primary);
+  margin-top: -0.5rem;
+}
+.para {
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  color: var(--font-gray-light);
+}
+.button {
+  width: 7rem;
+  height: 2.3rem;
+  font-weight: 600;
+  font-size: 0.6rem;
+  border: none;
+  border-radius: 50px;
+  background: var(--bg-primary);
+  color: white;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+}
+.button:after {
+  content: "only $15/mo";
+  position: absolute;
+  width: 4rem;
+  height: 1rem;
+  line-height: 1rem;
+  border-radius: 50px;
+  top: -0.6rem;
+  right: -1.5rem;
+  font-weight: 500;
+  font-size: 0.5rem;
+  background: #34d399;
+}
+
+.learnMore {
+  margin-top: 0.5rem;
+  color: var(--font-col-primary);
+  font-size: 0.5rem;
+}

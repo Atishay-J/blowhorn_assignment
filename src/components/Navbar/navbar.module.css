@@ -1,0 +1,125 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 2rem;
+}
+.logo {
+  font-size: 0.8rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+.logoDot {
+  color: var(--font-col-primary);
+}
+.menu {
+  display: none;
+}
+.accountWrapper {
+  display: none;
+}
+.burgerWrapper {
+  width: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.burgerContainer {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.burgerIcon {
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+.searchIcon {
+  cursor: pointer;
+}
+.menuWrapper {
+  background-color: #fefefe;
+  float: right;
+  border: 1px solid #888;
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 1rem;
+}
+.burgerMenu {
+  margin-top: 2rem;
+  margin-left: 0.4rem;
+  width: 100%;
+}
+.closeBtn {
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.menuItems {
+  font-size: 0.8rem;
+  margin-top: 0.6rem;
+  cursor: pointer;
+  padding: 0.25rem 0.6rem;
+  border-radius: 20px;
+  width: 100%;
+  transition: 0.3s;
+}
+.menuItems:hover {
+  background: var(--bg-primary);
+  color: white;
+}
+
+@media only screen and (min-width: 640px) {
+  .burgerWrapper {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+  .menuItems {
+    font-size: 0.65rem;
+    font-weight: 500;
+    color: var(--font-col-gray);
+  }
+  .menuItems:hover {
+    background: none;
+    color: var(--font-col-primary);
+  }
+
+  .accountWrapper {
+    display: block;
+  }
+  .signIn {
+    border: none;
+    width: 3rem;
+    height: 1rem;
+    background: none;
+    font-size: 0.65rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+  }
+  .signUp {
+    border: none;
+    width: 3.5rem;
+    height: 1.5rem;
+    font-size: 0.5rem;
+    border-radius: 50px;
+    padding: 0.2rem 0.4rem;
+    background: var(--bg-primary);
+    color: white;
+    cursor: pointer;
+  }
+}

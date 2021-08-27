@@ -1,0 +1,42 @@
+.card {
+  width: 15rem;
+  padding-bottom: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 1rem;
+  box-shadow: -5px -2px 20px -10px rgba(54, 54, 54, 0.158);
+}
+.cardImg {
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+.blogInfo {
+  padding: 1rem 1.5rem;
+  color: white;
+  position: relative;
+  padding-top: 1rem;
+}
+.tag {
+  padding: 0.2rem 0.6rem;
+  width: fit-content;
+  background: white;
+  border-radius: 50px;
+  font-size: 0.5rem;
+  font-weight: 600;
+  color: #8b5cf6;
+  position: absolute;
+  top: -0.8rem;
+  left: 1rem;
+}
+.heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+.subHeading {
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
