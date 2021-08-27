@@ -22,7 +22,6 @@
   align-items: center;
 }
 .teamCard {
-  /* background: red; */
   width: 10rem;
   display: flex;
   flex-direction: column;
@@ -65,7 +64,6 @@
   color: #2563eb;
 }
 .socialsWrapper {
-  /* background: red; */
   width: 4rem;
   display: flex;
   justify-content: space-evenly;
@@ -74,6 +72,4 @@
 }
 .socials {
   color: #d1d5db;
-  /* margin-left: 1rem; */
-  /* background: red; */
 }
