@@ -15,6 +15,12 @@
   font-size: 0.65rem;
   color: var(--font-gray-light);
 }
+.bottomNavLinks:hover {
+  color: var(--font-col-primary);
+}
+.socialIconWrapper {
+  cursor: pointer;
+}
 .socials {
   display: flex;
   justify-content: space-around;

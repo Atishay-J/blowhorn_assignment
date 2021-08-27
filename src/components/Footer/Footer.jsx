@@ -11,40 +11,40 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.bottomNav}>
-        <a href="#" className="bottomNavLinks">
+        <a href="#" className={styles.bottomNavLinks}>
           About
         </a>
-        <a href="#" className="bottomNavLinks">
+        <a href="#" className={styles.bottomNavLinks}>
           Blog
         </a>
-        <a href="#" className="bottomNavLinks">
+        <a href="#" className={styles.bottomNavLinks}>
           Team
         </a>
-        <a href="#" className="bottomNavLinks">
+        <a href="#" className={styles.bottomNavLinks}>
           Pricing
         </a>
-        <a href="#" className="bottomNavLinks">
+        <a href="#" className={styles.bottomNavLinks}>
           Contact
         </a>
-        <a href="#" className="bottomNavLinks">
+        <a href="#" className={styles.bottomNavLinks}>
           Terms
         </a>
       </div>
 
       <div className={styles.socials}>
-        <li className="socialIconWrapper">
+        <li className={styles.socialIconWrapper}>
           <Facebook />
         </li>
-        <li className="socialIconWrapper">
+        <li className={styles.socialIconWrapper}>
           <Instagram />
         </li>
-        <li className="socialIconWrapper">
+        <li className={styles.socialIconWrapper}>
           <Twitter />
         </li>
-        <li className="socialIconWrapper">
+        <li className={styles.socialIconWrapper}>
           <Github />
         </li>
-        <li className="socialIconWrapper">
+        <li className={styles.socialIconWrapper}>
           <Slack />
         </li>
       </div>
