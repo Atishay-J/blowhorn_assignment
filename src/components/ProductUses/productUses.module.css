@@ -1,0 +1,51 @@
+.container {
+  margin: auto;
+  margin-top: 5rem;
+}
+.usesCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.usesCard:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+.cardImg {
+  width: 16.5rem;
+  /* width: 50%; */
+  height: auto;
+  font-size: 0.5rem;
+}
+.usesInfoWrapper {
+  margin-left: 2rem;
+  width: 40%;
+}
+.heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.subHeading {
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  color: var(--font-gray-dark);
+}
+.useCases {
+  /* background: red; */
+  margin-top: 0.8rem;
+}
+.listStyle {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: #fcd34d;
+  margin-right: 0.5rem;
+}
+.pointers {
+  font-size: 0.65rem;
+  font-weight: 500;
+  color: var(--font-gray-light);
+  margin-top: 0.4rem;
+  display: flex;
+  align-items: center;
+}

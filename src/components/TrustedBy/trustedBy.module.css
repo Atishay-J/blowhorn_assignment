@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+  margin-top: 2rem;
+}
+.heading {
+  font-size: 0.6rem;
+  font-weight: 700;
+}
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+.partnersImage {
+  width: 5.3rem;
+  height: auto;
+  object-fit: contain;
+}
